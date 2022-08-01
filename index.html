@@ -58,7 +58,7 @@
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html">
-                        <img src="../images/logo.png" alt="logo">
+                        <img src="../images/logo.png" alt="logo" id="logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -68,13 +68,20 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home
+                                <a class="nav-link" href="index.html">首頁
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+							<li class="nav-item">
+                                <a class="nav-link" href="style.html">風格</a>
                             </li>
+							<li class="nav-item">
+                                <a class="nav-link" href="skill.html">技能</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ability.html">能力</a>
+                            </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="service.html">Service</a>
                             </li>
@@ -103,6 +110,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
+							-->
                         </ul>
                     </div>
                 </nav>
@@ -115,7 +123,8 @@
 ==================================================
 Slider Section Start
 ================================================== -->
-<section id="hero-area" >
+
+<section id="hero-area" style="display:none">
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
@@ -156,17 +165,15 @@ About Section Start
                     ABOUT ME
                     </h2>
                     <p>
-                        Hello, I’m a UI/UX Designer &amp; Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
+                        本網站只是單純因為興趣而製作, 希望能提供一些簡單的工具可以讓遊玩復活邪神Romancing SaGa Re;univerSe時更方便.<br>
+						所有使用的遊戲相關素材其版權為SQUARE ENIX所有
                     </p>
                 </div>
                 
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="images/about/about.jpg" alt="">
+                    <img src="images/about/rsrs_logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -174,254 +181,7 @@ About Section Start
 </section> <!-- /#about -->
 
 
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="works" class="works">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Dew Drop
-                    </a>
-                    </h4>
-                    <p>
-                        Redesigne UI Concept
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Bottle Mockup
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Table Design
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Make Up elements
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-5.jpg" class="img-fluid" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Shoping Bag Concept
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-6.jpg" class="img-fluid" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Caramel Bottle
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section> <!-- #works -->
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="feature">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-flask-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Media heading</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-americanfootball-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Free updates</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-keypad-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Solid Support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-barcode-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Simple Installation</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#feature -->
+
 
 
             <!--
@@ -433,9 +193,9 @@ Portfolio Section Start
                     <div class="row">
                         <div class="col-md-12">
                             <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">有任何意見或建議嗎?</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">如果有任何想建議的事項，都可以直接告訴我!</p>
+                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">聯絡我</a>
                             </div>
                         </div>
                         
@@ -452,12 +212,12 @@ Portfolio Section Start
                     <div class="row content-justify-between">
                         <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
                             <p class="copyright">Copyright: Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
-                                Get More Bootstrap Template From Our 
-                                <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
-                            </p>
+                            © 2018-2020 SQUARE ENIX CO., LTD. All Rights Reserved.
+							</p>
                         </div>
                         <div class="col-md-4 col-12">
                             <!-- Social Media -->
+							<!--
                             <ul class="social text-center text-md-right text-lg-right">
                                 <li>
                                     <a href="http://wwww.fb.com/themefisher" class="Facebook">
@@ -480,6 +240,7 @@ Portfolio Section Start
                                     </a>
                                 </li>
                             </ul>
+							-->
                         </div>
                     </div>
                 </div>
